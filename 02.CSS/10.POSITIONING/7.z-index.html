@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+    <style>
+        img{
+            height: 200px;
+            width:200px;
+            position:absolute;
+        }
+        .one{
+            z-index: 1;
+            top: 100px;
+            left:100px;
+        }
+        .two{
+            z-index:3;
+            top: 200px;
+            left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <img src="./assets/pexels-abuti-engidashet-2941405-15228018.jpg" alt="one" class="one">
+    <img src="./assets/pexels-alice1-30527756.jpg" alt="two" class="two">
+    <img src="./assets/pexels-danieljschwarz-34452843.jpg" alt="three" class="three">
+</body>
+</html>
