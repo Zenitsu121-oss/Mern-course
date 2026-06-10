@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMATION</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .spiner{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border-radius:10% ;
+            margin: 500px 500px 700px 500px;
+            animation: rou 6s infinite alternate ;
+
+        }
+        @keyframes rou {
+            0%{
+                transform: rotate(260deg) translate(300px,350px) scale(0.1,0.8);
+                transition: 3s;
+                background-color: #d07a7a;
+                
+            }
+            25%{
+                transform:rotate(360deg) translate(270px,300px) scale(0.1,0.8);
+                transition: 20s;
+                background-color: chartreuse;
+            }
+            50%{
+                transform: rotate(280deg) scale(2,2) translate(200px,250px);
+                transition: 2s;
+                background-color: #d71010;
+                border-radius:50%;
+            }
+            75%{
+                transform: rotate(300deg) scale(.5,.7) translate(100px,150px) translateZ(200px);
+                background-color: chocolate;
+                transition: 2s;
+                border-radius:10%;
+            }
+            90%{
+                transform: scale(.9,1.2);
+                background-color: cornflowerblue;
+                transition: 5s;
+                border-radius: 100%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="spiner"></div>
+</body>
+</html>
