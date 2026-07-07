@@ -23,17 +23,42 @@
 
 
 
-        function crtOrWrong(Val1,Val2){
-            if(Val1>Val2){
-                alert(`your choice is correct`)
-            }else{
-                alert(`your choice is wrong try again`)
-            }
+        // function crtOrWrong(Val1,Val2){
+        //     if(Val1>Val2){
+        //         alert(`your choice is correct`)
+        //     }else{
+        //         alert(`your choice is wrong try again`)
+        //     }
+        // }
+        // crtOrWrong(30,20)
+
+
+      //  Function  Experssion
+
+
+        let varValue=function(num1,num2){
+            let sum=num1+num2;
+            return sum;
         }
-        crtOrWrong(30,20)
+       console.log (varValue(10,20))
 
 
-      
+
+
+       // arrow function
+
+
+       let addValue   = (num3,num4) => {
+         let Mul=(num3 * num4)
+         return Mul;
+       }
+       console.log(addValue(10,20));
+
+
+       let number = number =>  number * number
+
+       console.log(number(15))
+       
 
 
 
