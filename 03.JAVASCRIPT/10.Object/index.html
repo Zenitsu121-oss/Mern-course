@@ -1,46 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Object</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Object</h1>
 
-
-
     <script>
-        let userInfo={
-            name :"dinesh",
-            age  :15,
+      // let userInfo={
+      //     name :"dinesh",
+      //     age  :15,
 
-        }
-        console.log("user information ====>" ,userInfo)
-        
+      // }
+      // console.log("user information ====>" ,userInfo)
 
-        userInfo.phone="+91444545564"
+      // userInfo.phone="+91444545564"
 
-        console.log("user information ====>", userInfo)
+      // console.log("user information ====>", userInfo)
 
-        userInfo.bloodGroup = "a1+"
+      // userInfo.bloodGroup = "a1+"
 
-        console.log("user infromation ===>",userInfo)
+      // console.log("user infromation ===>",userInfo)
+
+      // userInfo.address="8/23242 sanjay nagar ,erode"
+      // console.log("user infromation ===>",userInfo)
+
+      // userInfo.qaulification="B.Sc COmputer science"
+      // console.log("user infromation ===>",userInfo)
+
+      // delete userInfo.age;
+      // console.log("user information ==>",userInfo)
+
+      let userDetail = {
+        name: "sanjay",
+        age: 25,
+        Qualification: {
+          College_name: "VET",
+          Degree: "B.Sc CS",
+          year_of_passed: 2025,
+        },
+        addess: {
+          DRno: "8/1232",
+          city: "anna nagar",
+          district: "Tirupur",
+          state: "tamil nadu",
+          natioon: "india",
+          contect: {
+            phonum: "+2565643535",
+            email: "sanjayks@gmail.com",
+            insta_dm: "@sanjayks",
+          },
+        },
+      };
+
+      console.log("Output ====>", userDetail);
+
+      console.log("output =====>", userDetail.addess.DRno);
+
+      console.log("output =====>", userDetail.Qualification.College_name);
+
+      console.log("output =====>", userDetail.age);
+
+      userDetail.addess.pincode = "641602";
+
+      console.log("Output ====>", userDetail);
 
 
-        userInfo.address="8/23242 sanjay nagar ,erode"   
-        console.log("user infromation ===>",userInfo) 
-
-        userInfo.qaulification="B.Sc COmputer science"   
-        console.log("user infromation ===>",userInfo)
-
-
-        delete userInfo.age;
-        console.log("user information ==>",userInfo)
-
-
-
-
-        </script>
-</body>
+      
+    </script>
+  </body>
 </html>
