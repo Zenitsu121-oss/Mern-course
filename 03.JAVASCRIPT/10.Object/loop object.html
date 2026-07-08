@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lopp Object</title>
+</head>
+<body>
+    <h1>Loop Objects</h1>
+
+
+    <script>
+
+        let userInfo = {
+            name : "dinesh",
+            age :23,
+            address : {
+                DRno: "8/1232",
+                city: "anna nagar",
+                district: "Tirupur",
+                state: "tamil nadu",
+                natioon: "india",
+            },
+        }
+
+
+        for (let helo in userInfo){
+            console.log("user info ====?>",helo)
+            console.log("user info ====>",userInfo[helo])
+        }
+
+
+
+
+        let value = {
+
+            num1 : 50 ,
+            num2 : 70 ,
+            num3 : 80 
+
+        }
+
+
+        for (let val in value){
+            value[val] += 20 
+            value[val] *= 2
+        }
+        console.log(value)
+    </script>
+</body>
+</html>
