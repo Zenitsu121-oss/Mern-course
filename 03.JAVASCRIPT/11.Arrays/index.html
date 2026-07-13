@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body>
+    <h1>Arrays</h1>
+
+
+    <script>
+        //arrays
+
+
+        let car = ["BMW","AUDI",'LAMBORGINI',"BUGATI","BENZ","JAGUAR"]
+
+
+        console.log("CARS NAME ====>",car);
+
+        console.log("CARS NAME ====>",car.length);
+
+        console.log("CARS NAME ====>",car[0]);
+        console.log("CARS NAME ====>",car[2]);
+        console.log("CARS NAME ====>",car[5]);
+        console.log("CARS NAME ====>",car[4]);
+
+        //for... each
+
+        for (let i=0;i<car.length;i++){
+            console.log(car[i])
+        }
+
+        car[6]="FORD";
+        car[8]="POLO GT"
+
+        console.log("CARS NAME ====>",car);
+
+        car[5]="HONDA"
+
+        console.log("CARS NAME ====>",car);
+
+
+        let infoPer=[
+            "dinesh",
+            23,
+            {mobile : 3245345354 ,
+            Drno : 3/453 ,
+            city : "tiruppur",
+
+            },
+            ["dineshyt@gmail.com" , "dineshdj"],
+            "B.Sc Computer Science",
+
+        ]
+
+        console.log("information ===>",infoPer[2].mobile)
+        console.log("information ===>",infoPer[3][1])
+        console.log("information ===>",infoPer[0])
+        console.log("information ===>",infoPer[1])
+
+
+
+        let month = ["feb","mar","apr","may","jun"]
+
+        
+
+        console.log(month)
+
+        month.push("jly","aug","sep")
+        month.pop()
+        month.unshift("jan")
+        month.shift()
+
+        
+
+        
+    </script>
+</body>
+</html>
