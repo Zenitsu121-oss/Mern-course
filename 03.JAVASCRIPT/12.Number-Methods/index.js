@@ -1,0 +1,106 @@
+  //Represting numbers
+
+
+
+        let a =10_000_000_000;
+        let b =1203e5;
+
+        console.log("represting value ==>",a);
+        console.log("represting value ==>",b);
+
+
+        //Rounding
+
+        //floor
+
+        let atValue1=34.4332;
+        let atValue2=314.4332;
+        let atValue3=-341.4332;
+        let atValue4=5434.4332;
+        let atValue5=464334.4332;
+
+        console.log("floor ==>",Math.floor(atValue1));
+        console.log("floor ==>",Math.floor(atValue2));
+        console.log("floor ==>",Math.floor(atValue3));
+        console.log("floor ==>",Math.floor(atValue4));
+        console.log("floor ==>",Math.floor(atValue5));
+
+
+
+        //ceil
+
+        let theValue1=457.65;
+        let theValue2=2345.867;
+        let theValue3=4343.76;
+        let theValue4=6755.87;
+        let theValue5=655.77;
+
+        console.log("celi ==>",Math.ceil(theValue1));
+        console.log("celi ==>",Math.ceil(theValue2));
+        console.log("celi ==>",Math.ceil(theValue3));
+        console.log("celi ==>",Math.ceil(theValue4));
+        console.log("celi ==>",Math.ceil(theValue5));
+
+
+        //round
+
+        let theValue11=457.65;
+        let theValue12=2345.867;
+        let theValue13=4343.76;
+        let theValue14=6755.87;
+        let theValue15=655.77;
+
+        console.log("round ==>",Math.ceil(theValue11));
+        console.log("round ==>",Math.ceil(theValue12));
+        console.log("round ==>",Math.ceil(theValue13));
+        console.log("round ==>",Math.ceil(theValue14));
+        console.log("round ==>",Math.ceil(theValue15));
+
+
+
+        //trunc()
+
+
+        let atValue11=34.4332;
+        let atValue12=314.4332;
+        let atValue13=-341.4332;
+        let atValue14=5434.4332;
+        let atValue15=464334.4332;
+
+        console.log("truncate ==>",Math.floor(atValue11));
+        console.log("truncate ==>",Math.floor(atValue12));
+        console.log("truncate ==>",Math.floor(atValue13));
+        console.log("truncate ==>",Math.floor(atValue14));
+        console.log("truncate ==>",Math.floor(atValue15));
+        
+
+
+        //min
+
+        console.log(Math.min(2,54,4,345,343,223));
+        
+
+        //max
+
+        console.log(Math.max(2,54,4,345,343,223));
+
+
+        //pow
+
+        console.log(Math.pow(6,2));
+
+
+        //parseInt 
+
+        console.log(parseInt("12hi"))
+        console.log(parseInt("45654good one"))
+        console.log(parseInt("54345hello"))
+        console.log(parseInt("rfg4533"))
+
+
+        //parseFloat
+
+        console.log(parseFloat("12.0hi"))
+        console.log(parseFloat("45654good one"))
+        console.log(parseFloat("54345hello"))
+        console.log(parseFloat("rfg4533"))
