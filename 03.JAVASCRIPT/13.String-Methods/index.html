@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String-methods</title>
+</head>
+<body>
+    <h1>String-methods</h1>
+
+    <script>
+        let fruits="apple";
+        console.log("String ==>",fruits)
+
+        for(let i=0;i<fruits.length;i++){
+            console.log(fruits[i])
+
+
+        }
+
+        //String methods
+
+
+        let string = "ADddfffsd"
+        console.log(string.toUpperCase())
+
+        let string1 = "UUXuissdfsf"
+        console.log(string1.toLowerCase())
+
+
+        //indexof and include
+
+        let atString="Hello world"
+                    //012345678901
+        console.log(atString.indexOf("orld"));
+        console.log(atString.indexOf("dl"));
+        console.log(atString.indexOf("lo",1));
+
+        let String1="Good Morning"
+                   //0123456789012
+        console.log(String1.includes("od",1));
+        console.log(String1.includes("or",9));
+        console.log(String1.includes("Go",2));
+        console.log(String1.includes("ni",1));
+
+
+        console.log(String1.slice(0,5));
+        console.log(String1.slice(6,8));
+        console.log(String1.slice(-5));
+        console.log(String1.slice(10,15));
+
+        console.log(String1.substring(0,5));
+        console.log(String1.substring(2,8));
+        console.log(String1.substring(5,12));
+        console.log(String1.substring(7,10));
+
+
+        console.log( String1.substr(7,10));
+        console.log( String1.substr(0,12));
+        console.log( String1.substr(5,12));
+
+
+        
+
+        
+
+        
+    </script>
+</body>
+</html>
