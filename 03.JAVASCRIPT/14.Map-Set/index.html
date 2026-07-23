@@ -11,7 +11,7 @@
     <script>
 
         let All = new Map();
-        console.log("Map ==>",All);
+        
         
         let Car=["BMW","Benz","Audi","bugati"]
 
@@ -25,10 +25,54 @@
 
         }
         let bike =["bmw","gt","yemaha","bajaj",""]
+
+        console.log("Map ==>",All);
+
+        //set
         All.set(1,"hello everyone");
         All.set(Car,"Cars list");
         All.set("Enter your address",Info)
-        all.set("")
+        All.set("polo,gt,nissan",Car)
+        All.set(3, "Gold")
+        All.set(2, "Silver")
+
+
+        console.log("map-constructor=>", All)
+
+        //get
+        console.log(All.get(3));
+        console.log(All.get("polo,gt,nissan"));
+        console.log(All.get("Enter your address"));
+
+        //has
+
+        console.log(All.has(4));
+        console.log(All.has(1));
+        console.log(All.has("hello"));
+        console.log(All.has(2));
+
+        //delete
+
+        console.log(All.delete(2));
+
+
+        console.log("map-constructor=>", All)
+
+        console.log(All.delete("Enter your address"));
+
+        //clear
+
+        All.clear();
+
+        console.log(All);
+        
+        
+
+
+
+        
+        
+        
 
       
 
