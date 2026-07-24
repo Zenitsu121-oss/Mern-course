@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set</title>
+</head>
+<body>
+    <h1>set</h1>
+
+    <script>
+        let varVal=new Set();
+
+        console.log("Set Data=>",varVal);
+        
+
+        let value1=["Apple","banana","Grapcs","Watremelon"]
+
+        let value2={
+            name:"dinesh",
+            age :23,
+            address :{
+                Dro:2/456,
+                city:55335,
+                country:"india",
+            },
+            qualification:"B.sc 2025 passed out",
+            experience : "2years experiece on mern stack"
+        }
+
+        value2.education ="B.Sc Computer science"
+
+        value1.push("red banana","guva")
+        //add
+        varVal.add("welcome our website")
+        varVal.add(value1)
+        varVal.add(value2)
+        varVal.add({skills:"html"})
+        varVal.add("education")
+        varVal.add("thank you for the coming ")
+
+        console.log("Set Data=>",varVal)
+
+        console.log("Set Data=>",varVal.has({skills:"html"}))
+
+        console.log("Set Data=>",varVal.has("welcome our website"))
+
+        console.log("Set Data=>",varVal.has(value1))
+
+        console.log("Set Data=>",varVal.has("thank you for the coming "))
+
+
+        //delete
+
+        console.log("Set Data=>",varVal.delete("welcome our website"))
+
+        console.log("Set Data=>",varVal.delete({skills:"html"}))
+
+
+        //clear
+
+        varVal.clear();
+
+        console.log("Set Data=>",varVal)
+
+        
+        
+
+
+
+
+
+    </script>
+</body>
+</html>
