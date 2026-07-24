@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De-structure</title>
+</head>
+<body>
+    <h1>De-structure</h1>
+
+    <script>
+        //object  
+            let atValue={
+            name:"dinesh",
+             age :23,
+            address :{
+                Dro:2/456,
+                city:55335,
+                country:"india",
+            },
+            qualification:"B.sc 2025 passed out",
+            experience : "2years experiece on mern stack"
+        }
+
+        console.log("object ==>",atValue);
+
+
+        // let {name,age,address}=atValue;
+
+        // console.log("object ==>",name,age,address);
+
+
+        let{name:username ,age:userage}=atValue;
+
+         console.log("object ==>",username,userage);
+
+         let{name ,age=25}=atValue;
+
+         console.log("object ==>",atValue);
+
+        console.log("Name==>", name);
+        console.log("Age===>", age);
+
+
+        // array
+
+
+
+        let Cars=["bmw",,,"ferreri","lambogini",""];
+
+        let [first,second="polo",third="mg",fourth,fifith]=Cars;
+
+
+        console.log(second);
+        console.log(third);
+        console.log(fifith);
+        
+
+         let month = ["feb","mar","apr","may","jun","july","aug","sep"]
+
+         let[one,two,three,four,five, ...remaining]=month
+
+
+         console.log(one);
+         console.log(remaining);
+
+         
+
+
+
+
+
+
+
+
+        
+    </script>
+</body>
+</html>
