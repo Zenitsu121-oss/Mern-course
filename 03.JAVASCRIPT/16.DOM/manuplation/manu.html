@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manupluation</title>
+</head>
+<body>
+    <h1>Manupluation</h1>
+    <ul id="hello"></ul>
+    <button id="btn"></button>
+
+
+    <script>
+        let a=["home","class","about","contectus"]
+        console.log("a==>",a);
+
+        let ul=document.querySelector("#hello");
+        console.log("ul==>",ul);
+
+        function arr(listtext){
+           let li=document.createElement("li");
+            
+            li.className="list-item"
+            li.textContent=listtext;
+
+            ul.appendChild(li);
+        }
+        let btn=document.querySelector("#btn");
+
+
+        btn.addEventListener("click",() =>{
+            a.forEach(arrayItems) =>{
+                arr(arrayItems);
+            });
+        });
+        
+        
+    </script>
+</body>
+</html>
